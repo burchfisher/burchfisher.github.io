@@ -744,9 +744,9 @@ const siteContent = {
       "id": "sustainable-ai-podcast",
       "date": "2026-04-13",
       "title": "Podcast: Sustainable AI",
-      "summary": "A conversation on AI, Unscripted about AI's environmental footprint and informed, responsible use in education.",
+      "summary": "I joined AI, Unscripted as a guest expert to discuss AI's environmental footprint and informed, responsible use in education.",
       "media": {"label": "Listen to podcast", "url": "https://needle.podbean.com/e/ai-unscripted-sustainable-ai-balancing-innovation-with-environmental-responsibility/"},
-      "body": "<p>I joined hosts Jennifer Potter and Mary Crowley-Farrell for <em>AI, Unscripted - Sustainable AI: Balancing Innovation with Environmental Responsibility</em>, an episode of <em>Moving the Needle</em> published April 13, 2026.</p><p>We discuss the environmental impact of AI and how evidence-based decisions can support responsible AI use in education. The episode runs approximately 29 minutes.</p><p><a href=\"https://needle.podbean.com/e/ai-unscripted-sustainable-ai-balancing-innovation-with-environmental-responsibility/\">Listen to the episode on Podbean</a></p>"
+      "body": "<p>I joined hosts Jennifer Potter and Mary Crowley-Farrell as a guest expert for <em>AI, Unscripted - Sustainable AI: Balancing Innovation with Environmental Responsibility</em>, an episode of <em>Moving the Needle</em> published April 13, 2026.</p><p>We discuss the environmental impact of AI and how evidence-based decisions can support responsible AI use in education. The episode runs approximately 29 minutes.</p><p><a href=\"https://needle.podbean.com/e/ai-unscripted-sustainable-ai-balancing-innovation-with-environmental-responsibility/\">Listen to the episode on Podbean</a></p>"
     },
     {
       "id": "lidar-timber-harvest",
