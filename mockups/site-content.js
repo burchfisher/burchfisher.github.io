@@ -205,6 +205,13 @@ const siteContent = {
       "text": ""
     },
     {
+      "title": "SAMANTHA BIDLACK",
+      "initials": "SB",
+      "role": "M.S. / Chatham University / 2021",
+      "text": "I served on Samantha's M.S. thesis committee in 2021 for her research on freshwater salinization trends in the eastern United States. Her primary advisor was Ryan Utz at the Falk School of Sustainability and Environment at Chatham University. We co-authored a paper on urbanization and freshwater salinization in the northeastern United States.",
+      "papers": ["10.1002/jeq2.20379"]
+    },
+    {
       "title": "JUSTIN TRAN",
       "image": "assets/team/img-7520_orig.jpg",
       "text": "I co-advised Justin's M.S. thesis at UC Santa Barbara with David Valentine, investigating the morphology of hydrocarbon-induced topography using high-resolution bathymetry from autonomous underwater vehicles. Justin was supported by the Department of Defense's Science, Mathematics, and Research for Transformation (SMART) Scholarship for Service Program.",
