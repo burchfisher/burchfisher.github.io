@@ -167,6 +167,7 @@ const siteContent = {
       "title": "STEPHEN CONKLIN",
       "initials": "SC",
       "role": "Research collaborator / Fort Lewis College graduate, class of 2026",
+      "degreeLevel": "undergraduate",
       "text": "Stephen started working with me as a Fort Lewis College intern and, after graduating in 2026, continues to collaborate on remote sensing and research software projects. Collaborative projects include Harmonized Landsat-Sentinel vegetation-index processing, phenology analysis and an interactive dashboard for the BioSCape project in South Africa, automated acquisition of NAIP aerial imagery, and tools for deploying research dashboards on Jetstream2. He also works on integrating satellite imagery and airborne LiDAR for studies in Pennsylvania.",
       "links": [
         {
