@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Burch Fisher | Explorer Previews</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #080d13; color: #d6e4ef; font: 16px/1.6 Arial, Helvetica, sans-serif; letter-spacing: 0; }
+    main { max-width: 1460px; margin: auto; padding: 48px 40px; }
+    .label { font: 12px/1.5 Consolas, monospace; color: #5be3ff; text-transform: uppercase; margin: 0 0 16px; }
+    h1 { font-size: 38px; line-height: 1.2; font-weight: 400; margin: 0 0 36px; }
+    .grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 32px; }
+    article { min-width: 0; }
+    .preview { display: block; aspect-ratio: 1.6; overflow: hidden; border: 1px solid #263642; }
+    .preview img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+    h2 { font-size: 24px; font-weight: 400; margin: 20px 0 12px; }
+    a { color: #5be3ff; text-underline-offset: 4px; }
+    a:focus-visible { outline: 2px solid #72f0a3; outline-offset: 5px; }
+    @media (max-width: 800px) { main { padding: 32px 20px; } .grid { grid-template-columns: 1fr; gap: 36px; } h1 { font-size: 32px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="label">Website previews</p>
+    <h1>G. Burch Fisher</h1>
+    <div class="grid">
+      <article><a class="preview" href="explorer.html" aria-label="Open Globe Explorer"><img src="assets/explorer-preview.jpg" alt="Globe Explorer homepage with an Earth image beside G. Burch Fisher's name"></a><h2>Globe Explorer</h2><a href="explorer.html">Open globe version</a></article>
+      <article><a class="preview" href="explorer-ribbons.html" aria-label="Open Ribbon Explorer"><img src="assets/explorer-ribbons-preview.jpg" alt="Ribbon Explorer homepage with stair-step image links beside G. Burch Fisher's name"></a><h2>Ribbon Explorer</h2><a href="explorer-ribbons.html">Open ribbon version</a></article>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.ribbon-explorer .earth-stage {
+  --ribbon-step: clamp(18px,3.55vw,51px);
+  --ribbon-overhang: clamp(24px,5vw,72px);
+  grid-template-columns: minmax(300px,460px) minmax(0,1fr);
+  grid-template-areas: 'title ribbons' 'focus ribbons';
+  grid-template-rows: minmax(312px,max-content) 1fr;
+  gap: 34px 64px;
+  padding: 40px 40px 36px;
+  align-items: start;
+}
+.ribbon-explorer .explorer-title { margin: 0; }
+.ribbon-explorer .explorer-title > .profile-fields { color: var(--cyan); font: 12px/1.8 'SFMono-Regular',Consolas,'Courier New',monospace; margin-bottom: 36px; }
+.ribbon-explorer .explorer-title h1 { font-size: 64px; line-height: 1.15; font-weight: 500; }
+.profile-affiliation { margin-top: 26px; }
+.profile-role { color: var(--ink); font-size: 20px; line-height: 1.5; margin-bottom: 12px; }
+.profile-institution { color: var(--muted); font-size: 18px; line-height: 1.65; }
+.ribbon-explorer .hero-ribbons { grid-area: ribbons; display: grid; gap: 6px; padding: 0; }
+.ribbon-explorer .image-ribbon { --ribbon-index: 0; height: 64px; margin-left: calc(var(--ribbon-index) * var(--ribbon-step) - var(--ribbon-overhang)); }
+.ribbon-explorer .image-ribbon:nth-child(2) { --ribbon-index: 1; }
+.ribbon-explorer .image-ribbon:nth-child(3) { --ribbon-index: 2; }
+.ribbon-explorer .image-ribbon:nth-child(4) { --ribbon-index: 3; }
+.ribbon-explorer .image-ribbon:nth-child(5) { --ribbon-index: 4; }
+.ribbon-explorer .image-ribbon:nth-child(6) { --ribbon-index: 5; }
+.ribbon-explorer .image-ribbon:nth-child(7) { --ribbon-index: 6; }
+.ribbon-explorer .image-ribbon:nth-child(8) { --ribbon-index: 7; }
+.ribbon-explorer .image-ribbon:nth-child(9) { --ribbon-index: 8; }
+.ribbon-explorer .explorer-bottom { width: calc(100% + 4 * var(--ribbon-step)); }
+.ribbon-explorer .image-ribbon span { left: 18px; bottom: 10px; right: 18px; font-size: 22px; }
+.ribbon-explorer .image-ribbon::after { inset: 0; background: linear-gradient(90deg,rgba(0,0,0,.5),transparent 80%),linear-gradient(transparent,rgba(0,0,0,.45)); }
+.ribbon-explorer .image-ribbon[href='#teaching'] img { object-position: center 43%; }
+.ribbon-explorer .image-ribbon[href='#publications'] img { object-position: center 42%; }
+.ribbon-explorer .image-ribbon img { transition: transform .65s cubic-bezier(.2,.7,.2,1); transform-origin: center; }
+.ribbon-explorer .image-ribbon span { transition: transform .3s ease; }
+.ribbon-explorer .image-ribbon:hover img,.ribbon-explorer .image-ribbon:focus-visible img { transform: scale(1.09) translateX(-6px); }
+.ribbon-explorer .image-ribbon:hover span,.ribbon-explorer .image-ribbon:focus-visible span { transform: translateX(8px); }
+@media (prefers-reduced-motion: reduce) {
+  .ribbon-explorer .image-ribbon img,.ribbon-explorer .image-ribbon span { transition: none; }
+  .ribbon-explorer .image-ribbon:hover img,.ribbon-explorer .image-ribbon:focus-visible img,.ribbon-explorer .image-ribbon:hover span,.ribbon-explorer .image-ribbon:focus-visible span { transform: none; }
+}
+.ribbon-explorer .explorer-project { grid-template-columns: 1fr 1.15fr; }
+.ribbon-explorer .explorer-project a { grid-column: 2; }
+@media (max-width: 1100px) and (min-width: 801px) {
+  .ribbon-explorer .earth-stage { grid-template-columns: minmax(300px,.85fr) minmax(0,1fr); gap: 30px; padding: 32px 28px; }
+  .ribbon-explorer .explorer-title h1 { font-size: 52px; }
+  .ribbon-explorer .explorer-bottom { width: calc(100% + 3 * var(--ribbon-step)); }
+}
+@media (max-width: 800px) {
+  .ribbon-explorer .earth-stage { grid-template-columns: minmax(0,1fr); grid-template-areas: 'title' 'ribbons' 'focus'; grid-template-rows: auto; gap: 30px; padding: 30px 28px; }
+  .ribbon-explorer .explorer-title { margin: 0; }
+  .ribbon-explorer .image-ribbon { height: 72px; margin-left: 0; }
+  .ribbon-explorer .explorer-bottom { width: 100%; }
+  .ribbon-explorer .explorer-project { grid-template-columns: 1fr 1.15fr; }
+}
+@media (max-width: 480px) {
+  .ribbon-explorer .earth-stage { padding: 26px 20px; }
+  .ribbon-explorer .explorer-title h1 { font-size: 44px; }
+  .ribbon-explorer .explorer-project { grid-template-columns: minmax(0,1fr); }
+  .ribbon-explorer .explorer-project a { grid-column: auto; }
+  .ribbon-explorer .image-ribbon span { font-size: 21px; }
+}

@@ -1,0 +1,2236 @@
+{
+  "checkedOn": "2026-10-09",
+  "method": "GET request, redirect following, HTTP status and page-title inspection; HTTPS fallback for failed HTTP URLs. This is not a full browser, video-playback, paywall, or complete article-content verification.",
+  "summary": {
+    "unverified": 31,
+    "working-in-initial-check": 50,
+    "broken-or-wrong-destination": 21
+  },
+  "links": [
+    {
+      "label": "TEC: Study Discredits Theories of Actively Flowing Wells at MC-20 (YAHOO News)",
+      "url": "https://news.yahoo.com/taylor-energy-company-peer-reviewed-185300727.html",
+      "group": "INSIGHTS INTO THE ONGOING RELEASE AT MC20 - Bryant et al., 2020",
+      "original": {
+        "status": 429,
+        "final": "https://news.yahoo.com/taylor-energy-company-peer-reviewed-185300727.html",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/0.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Scientist Should Be Active but Apolitical (Huffington Post)",
+      "url": "http://www.huffingtonpost.com/entry/scientists-should-be-active-but-apolitical-with-david_us_586ac375e4b068764965c3be",
+      "group": "BIODEGRADATION OF OIL FOLLOWING DEEPWATER HORIZON - Bagby et al., 2017",
+      "original": {
+        "status": 200,
+        "final": "https://www.huffpost.com/entry/scientists-should-be-active-but-apolitical-with-david_b_586ac375e4b068764965c3be",
+        "redirects": 3,
+        "code": 0,
+        "error": "",
+        "title": "Scientists should be active but apolitical (with David L. Valentine) | HuffPost Contributor",
+        "path": "/private/tmp/burch-press-responses/1.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "What Happened to Deepwater Horizon Oil? (WHOI Oceanus Magazine)",
+      "url": "http://www.whoi.edu/oceanus/v2/viewArticle/preview.do?id=249069",
+      "group": "BIODEGRADATION OF OIL FOLLOWING DEEPWATER HORIZON - Bagby et al., 2017",
+      "original": {
+        "status": 403,
+        "final": "https://www.whoi.edu/oceanus/v2/viewArticle/preview.do?id=249069",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "403 Forbidden",
+        "path": "/private/tmp/burch-press-responses/2.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.whoi.edu/oceanus/v2/viewArticle/preview.do?id=249069",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "403 Forbidden",
+        "path": "/private/tmp/burch-press-responses/2-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified",
+      "resolution": {
+        "status": "repaired",
+        "currentUrl": "https://www.whoi.edu/oceanus/feature/what-happened-to-deepwater-horizon-oil/",
+        "currentLabel": "What Happened to Deepwater Horizon Oil? (WHOI Oceanus Magazine)",
+        "note": "Verified matching WHOI article."
+      }
+    },
+    {
+      "label": "The Deepwater Horizon Aftermath (UCSB Current)",
+      "url": "http://www.news.ucsb.edu/2016/017495/deepwater-horizon-aftermath",
+      "group": "BIODEGRADATION OF OIL FOLLOWING DEEPWATER HORIZON - Bagby et al., 2017",
+      "original": {
+        "status": 200,
+        "final": "https://news.ucsb.edu/2016/017495/deepwater-horizon-aftermath",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "The Deepwater Horizon Aftermath | The Current",
+        "path": "/private/tmp/burch-press-responses/3.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Deep Oil Spill Study Released (Santa Barbara Independent)",
+      "url": "http://m.independent.com/news/2016/dec/28/deep-oil-spill-study-released/?templates=mobile",
+      "group": "BIODEGRADATION OF OIL FOLLOWING DEEPWATER HORIZON - Bagby et al., 2017",
+      "original": {
+        "status": 0,
+        "final": "http://m.independent.com/news/2016/dec/28/deep-oil-spill-study-released/?templates=mobile",
+        "redirects": 0,
+        "code": 28,
+        "error": "curl: (28) Connection timed out after 20006 milliseconds",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/4.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 0,
+        "final": "https://m.independent.com/news/2016/dec/28/deep-oil-spill-study-released/?templates=mobile",
+        "redirects": 0,
+        "code": 28,
+        "error": "curl: (28) Connection timed out after 20006 milliseconds",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/4-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified",
+      "resolution": {
+        "status": "repaired",
+        "currentUrl": "https://www.independent.com/2016/12/28/deep-oil-spill-study-released/",
+        "currentLabel": "Deep Oil Spill Study Released (Santa Barbara Independent)",
+        "note": "Verified matching Independent article."
+      }
+    },
+    {
+      "label": "Deepwater Horizon Disaster Half a Decade Later (Nature World News)",
+      "url": "http://www.natureworldnews.com/articles/34433/20161221/deepwater-horizon-disaster-half-decade-later-biodegradation-oil-spill.htm",
+      "group": "BIODEGRADATION OF OIL FOLLOWING DEEPWATER HORIZON - Bagby et al., 2017",
+      "original": {
+        "status": 200,
+        "final": "https://www.natureworldnews.com/articles/34433/20161221/deepwater-horizon-disaster-half-decade-later-biodegradation-oil-spill.htm",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Deepwater Horizon Disaster Half a Decade Later: Biodegradation of the Oil Spill",
+        "path": "/private/tmp/burch-press-responses/5.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Phys.org, Technology.org, etc",
+      "url": "https://pnas.altmetric.com/details/14860920/news",
+      "group": "BIODEGRADATION OF OIL FOLLOWING DEEPWATER HORIZON - Bagby et al., 2017",
+      "original": {
+        "status": 200,
+        "final": "https://pnas.altmetric.com/details/14860920/news",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Altmetric – Persistence and biodegradation of oil at the ocean floor following Deepwater Horizon",
+        "path": "/private/tmp/burch-press-responses/6.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Deep Sea Bacterial Takeover (UCSB Current)",
+      "url": "http://www.news.ucsb.edu/2016/017219/deep-sea-bacterial-takeover",
+      "group": "SANTA BARBARA BASIN BENTHIC BACTERIAL MAT - Valentine et al., 2016",
+      "original": {
+        "status": 200,
+        "final": "https://news.ucsb.edu/2016/017219/deep-sea-bacterial-takeover",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Deep Sea Bacterial Takeover | The Current",
+        "path": "/private/tmp/burch-press-responses/7.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Deepwater Horizon gunk settled far and wide (Nature)",
+      "url": "http://www.nature.com/news/deepwater-horizon-gunk-settled-far-and-wide-1.16225",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.nature.com/articles/nature.2014.16225?error=cookies_not_supported&code=eae34c5a-9d35-4ca1-a58a-8c0db3dd9cab",
+        "redirects": 5,
+        "code": 0,
+        "error": "",
+        "title": "Deepwater Horizon gunk settled far and wide | Nature",
+        "path": "/private/tmp/burch-press-responses/8.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Where Did Deepwater Horizon Oil Go? (WHOI Oceanus Magazine)",
+      "url": "http://www.whoi.edu/oceanus/feature/where-did-deepwater-horizon-oil-go",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.whoi.edu/oceanus/feature/where-did-deepwater-horizon-oil-go/",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "Where Did Deepwater Horizon Oil Go? | Woods Hole Oceanographic Institution",
+        "path": "/private/tmp/burch-press-responses/9.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Study Provides Some Answers to Fate of Deepwater Horizon Oil (WHOI)",
+      "url": "http://www.whoi.edu/news-release/seafloor-oil",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.whoi.edu/press-room/news-release/seafloor-oil/",
+        "redirects": 3,
+        "code": 0,
+        "error": "",
+        "title": "Study Provides Some Answers to Fate of Deepwater Horizon Oil | Woods Hole Oceanographic Institution",
+        "path": "/private/tmp/burch-press-responses/10.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Deepwater Horizon Oil Coats Gulf Floor (US News & World Report)",
+      "url": "http://www.usnews.com/news/articles/2014/10/27/oil-fallout-from-bp-deepwater-horizon-spill-coats-miles-of-gulf-floor-study-says",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 0,
+        "final": "http://www.usnews.com/news/articles/2014/10/27/oil-fallout-from-bp-deepwater-horizon-spill-coats-miles-of-gulf-floor-study-says",
+        "redirects": 0,
+        "code": 56,
+        "error": "curl: (56) Recv failure: Operation timed out",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/11.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 0,
+        "final": "https://www.usnews.com/news/articles/2014/10/27/oil-fallout-from-bp-deepwater-horizon-spill-coats-miles-of-gulf-floor-study-says",
+        "redirects": 0,
+        "code": 92,
+        "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/11-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Where did the Deepwater Horizon oil go? (National Science Foundation)",
+      "url": "http://www.nsf.gov/news/news_summ.jsp?cntn_id=133059&org=NSF&from=news",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.nsf.gov/news?cntn_id=133059&org=NSF&from=news",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "News | NSF - U.S. National Science Foundation",
+        "path": "/private/tmp/burch-press-responses/12.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination",
+      "resolution": {
+        "status": "repaired",
+        "currentUrl": "https://www.eurekalert.org/news-releases/525217",
+        "currentLabel": "Where did the Deepwater Horizon oil go? (NSF release via EurekAlert!)",
+        "note": "NSF-issued copy verified by web retrieval. Shell check is blocked (403)."
+      }
+    },
+    {
+      "label": "Where Did All the Oil Go? (UCSB Current)",
+      "url": "http://www.news.ucsb.edu/2014/014454/where-did-all-oil-go",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://news.ucsb.edu/2014/014454/where-did-all-oil-go",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Where Did All the Oil Go? | The Current",
+        "path": "/private/tmp/burch-press-responses/13.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "BP spill left big oily 'bathtub ring' on seafloor (AP, ABC News)",
+      "url": "http://abcnews.go.com/Technology/wireStory/bp-spill-left-big-oily-bathtub-ring-seafloor-26490945",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://abcnews.com/Technology/wireStory/bp-spill-left-big-oily-bathtub-ring-seafloor-26490945",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "Page Unavailable - ABC News",
+        "path": "/private/tmp/burch-press-responses/14.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "https": {
+        "status": 404,
+        "final": "https://abcnews.com/Technology/wireStory/bp-spill-left-big-oily-bathtub-ring-seafloor-26490945",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Page Unavailable - ABC News",
+        "path": "/private/tmp/burch-press-responses/14-https.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "assessment": "broken-or-wrong-destination",
+      "resolution": {
+        "status": "repaired",
+        "currentUrl": "https://www.heraldnet.com/2014/10/27/bp-spill-left-big-oily-bathtub-ring-on-sea-floor/",
+        "currentLabel": "BP spill left big oily 'bathtub ring' on seafloor (AP, via HeraldNet)",
+        "note": "Verified same AP story, republished by HeraldNet."
+      }
+    },
+    {
+      "label": "Researchers: A massive amount BP oil is coating the bottom of the Gulf (Salon)",
+      "url": "http://www.salon.com/2014/10/27/researchers_a_massive_amount_bp_oil_is_coating_the_bottom_of_the_gulf/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.salon.com/2014/10/27/researchers_a_massive_amount_bp_oil_is_coating_the_bottom_of_the_gulf/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Researchers: A massive amount of BP oil is coating the bottom of the Gulf - Salon.com",
+        "path": "/private/tmp/burch-press-responses/15.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Huge \"Bathtub Ring\" Left By Oil Spill (I Fucking Love Science)",
+      "url": "http://www.iflscience.com/environment/huge-bathtub-ring-left-oil-spill",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "https://www.iflscience.com/environment/huge-bathtub-ring-left-oil-spill",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "ERROR: The request could not be satisfied",
+        "path": "/private/tmp/burch-press-responses/16.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.iflscience.com/environment/huge-bathtub-ring-left-oil-spill",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "ERROR: The request could not be satisfied",
+        "path": "/private/tmp/burch-press-responses/16-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Arise America Interview with Dave Valentine",
+      "url": "https://www.youtube.com/watch?v=gSAFXGykDzY&feature=youtu.be",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.youtube.com/watch?v=gSAFXGykDzY&feature=youtu.be",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Arise America: &quot;Bathtub Ring&quot; of oil leftover from BP Oil Spill - YouTube",
+        "path": "/private/tmp/burch-press-responses/17.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "International Business Times",
+      "url": "http://www.ibtimes.com/bp-oil-spill-2010-study-says-deepwater-horizon-event-left-huge-oily-bathtub-ring-gulf-1714475",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.ibtimes.com/bp-oil-spill-2010-study-says-deepwater-horizon-event-left-huge-oily-bathtub-ring-gulf-1714475",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "BP Oil Spill 2010: Study Says Deepwater Horizon Event Left Huge Oily ‘Bathtub Ring’ On Gulf Floor | IBTimes",
+        "path": "/private/tmp/burch-press-responses/18.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "CBS News",
+      "url": "http://www.cbsnews.com/news/bp-oil-spill-left-a-bathtub-ring-the-size-of-rhode-island-study-says/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.cbsnews.com/news/bp-oil-spill-left-a-bathtub-ring-the-size-of-rhode-island-study-says/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "BP oil spill left a \"bathtub ring\" the size of Rhode Island, study says - CBS News",
+        "path": "/private/tmp/burch-press-responses/19.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "El Pais",
+      "url": "http://elpais.com/elpais/2014/10/27/ciencia/1414433375_742196.html",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://elpais.com/elpais/2014/10/27/ciencia/1414433375_742196.html",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "El vertido del Golfo de México contamina un área de fondo marino mayor que Luxemburgo | Ciencia | EL PAÍS",
+        "path": "/private/tmp/burch-press-responses/20.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Der Spiegel",
+      "url": "http://www.spiegel.de/wissenschaft/natur/folgen-der-deepwater-horizon-havarie-oel-am-meeresboden-a-999651.html",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.spiegel.de/wissenschaft/natur/folgen-der-deepwater-horizon-havarie-oel-am-meeresboden-a-999651.html",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Folgen der Deepwater Horizon-Havarie: Öl am Meeresboden - DER SPIEGEL",
+        "path": "/private/tmp/burch-press-responses/21.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Die Zeit",
+      "url": "http://www.zeit.de/wissen/umwelt/2014-10/oelkatastrophe-meeresgrund-studie",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "https://www.zeit.de/wissen/umwelt/2014-10/oelkatastrophe-meeresgrund-studie",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Da ist etwas schiefgelaufen",
+        "path": "/private/tmp/burch-press-responses/22.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.zeit.de/wissen/umwelt/2014-10/oelkatastrophe-meeresgrund-studie",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Da ist etwas schiefgelaufen",
+        "path": "/private/tmp/burch-press-responses/22-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Die Welt",
+      "url": "http://www.welt.de/wissenschaft/umwelt/article133717737/Die-Reste-der-Oelkatastrophe-liegen-am-Meeresboden.html",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.welt.de/wissenschaft/umwelt/article133717737/Oel-der-Deepwater-Horizon-Katastrophe-liegt-am-Meeresboden.html",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "Öl der Deepwater Horizon-Katastrophe liegt am Meeresboden - WELT",
+        "path": "/private/tmp/burch-press-responses/23.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Science Daily,",
+      "url": "http://www.sciencedaily.com/releases/2014/10/141027182948.htm?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+sciencedaily+%28Latest+Science+News+--+ScienceDaily%29",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "http://www.sciencedaily.com/releases/2014/10/141027182948.htm?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+sciencedaily+%28Latest+Science+News+--+ScienceDaily%29",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Deepwater Horizon spill: Much of the oil at bottom of the sea | ScienceDaily",
+        "path": "/private/tmp/burch-press-responses/24.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Reddit (front page)",
+      "url": "http://www.reddit.com/r/worldnews/comments/2kl913/scientists_discover_huge_bathtub_ring_of_oil_on/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.reddit.com/r/worldnews/comments/2kl913/scientists_discover_huge_bathtub_ring_of_oil_on/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Reddit",
+        "path": "/private/tmp/burch-press-responses/25.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Houston Chronicle",
+      "url": "http://www.houstonchronicle.com/business/energy/article/Study-suggests-sprawling-footprint-of-Macondo-5851760.php",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.houstonchronicle.com/business/energy/article/Study-suggests-sprawling-footprint-of-Macondo-5851760.php",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Client Challenge",
+        "path": "/private/tmp/burch-press-responses/26.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "EcoWatch",
+      "url": "http://ecowatch.com/2014/10/28/bp-deepwater-horizon-oil-spill/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.ecowatch.com/oceans/",
+        "redirects": 3,
+        "code": 0,
+        "error": "",
+        "title": "Oceans Archives - EcoWatch",
+        "path": "/private/tmp/burch-press-responses/27.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "Yale Environment 360",
+      "url": "http://e360.yale.edu/digest/scientists_find_seafloor_fallout_plume_of_oil_from_deepwater_horizon_spill/4285/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://e360.yale.edu/digest/scientists_find_seafloor_fallout_plume_of_oil_from_deepwater_horizon_spill/4285/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Error 404: Page Not Found - Yale E360",
+        "path": "/private/tmp/burch-press-responses/28.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "https": {
+        "status": 404,
+        "final": "https://e360.yale.edu/digest/scientists_find_seafloor_fallout_plume_of_oil_from_deepwater_horizon_spill/4285/",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Error 404: Page Not Found - Yale E360",
+        "path": "/private/tmp/burch-press-responses/28-https.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "assessment": "broken-or-wrong-destination",
+      "resolution": {
+        "status": "repaired",
+        "currentUrl": "https://e360.yale.edu/digest/scientists_find_seafloor_fallout_plume_of_oil_from_deepwater_horizon_spill",
+        "currentLabel": "Yale Environment 360",
+        "note": "Verified original article at current URL."
+      }
+    },
+    {
+      "label": "Science 2.0",
+      "url": "http://www.science20.com/news_articles/where_did_all_the_oil_from_the_deepwater_horizon_spill_go-147816",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://science20.com/news_articles/where_did_all_the_oil_from_the_deepwater_horizon_spill_go-147816",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Where Did All The Oil From The Deepwater Horizon Spill Go? | Science 2.0",
+        "path": "/private/tmp/burch-press-responses/29.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Maritime Executive",
+      "url": "http://www.maritime-executive.com/article/Macondo-Accident-25-Miles-of-Seafloor-Oil-2014-10-27",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://maritime-executive.com/article/Macondo-Accident-25-Miles-of-Seafloor-Oil-2014-10-27",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "Macondo Accident: 25 Miles of Seafloor Oil",
+        "path": "/private/tmp/burch-press-responses/30.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "R&D Magazine",
+      "url": "http://www.rdmag.com/news/2014/10/where-did-deepwater-horizon-oil-go",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "http://www.rdworldonline.com/news/2014/10/where-did-deepwater-horizon-oil-go",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/31.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.rdworldonline.com/news/2014/10/where-did-deepwater-horizon-oil-go",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/31-https.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Yahoo News",
+      "url": "https://uk.news.yahoo.com/oil-bp-spill-coats-miles-gulf-seafloor-142651334.html#rMPo8fq",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 429,
+        "final": "https://uk.news.yahoo.com/oil-bp-spill-coats-miles-gulf-seafloor-142651334.html#rMPo8fq",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/32.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "The Times Picayune",
+      "url": "http://www.nola.com/environment/index.ssf/2014/10/bp_spill_left_bathtub_ring_of.html",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 429,
+        "final": "http://www.nola.com/environment/index.ssf/2014/10/bp_spill_left_bathtub_ring_of.html",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/33.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 429,
+        "final": "https://www.nola.com/environment/index.ssf/2014/10/bp_spill_left_bathtub_ring_of.html",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/33-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "edhat",
+      "url": "http://www.edhat.com/site/tidbit.cfm?nid=142904",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "https://www.edhat.com/site/tidbit.cfm?nid=142904",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/34.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.edhat.com/site/tidbit.cfm?nid=142904",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/34-https.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Noozhawk",
+      "url": "http://www.noozhawk.com/article/where_did_all_the_oil_go",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.noozhawk.com/where_did_all_the_oil_go/",
+        "redirects": 4,
+        "code": 0,
+        "error": "",
+        "title": "Where Did All the Oil Go? UCSB Professor Traces Oil from Deepwater Horizon to its Resting Place | UCSB | Noozhawk",
+        "path": "/private/tmp/burch-press-responses/35.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Examiner",
+      "url": "http://www.examiner.com/article/forty-percent-of-deepwater-horizon-oil-found-on-ocean-floor",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "http://www.examiner.com/article/forty-percent-of-deepwater-horizon-oil-found-on-ocean-floor",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Attention Required! | Cloudflare",
+        "path": "/private/tmp/burch-press-responses/36.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.examiner.com/article/forty-percent-of-deepwater-horizon-oil-found-on-ocean-floor",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Attention Required! | Cloudflare",
+        "path": "/private/tmp/burch-press-responses/36-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Science Blog",
+      "url": "http://scienceblog.com/75040/deepwater-horizon-oil-go-davy-jones-locker-bottom-sea/#PDzrHatxfQ7dcTRI.97",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://scienceblog.com/75040/deepwater-horizon-oil-go-davy-jones-locker-bottom-sea/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Page not found - ScienceBlog.com",
+        "path": "/private/tmp/burch-press-responses/37.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "https": {
+        "status": 404,
+        "final": "https://scienceblog.com/75040/deepwater-horizon-oil-go-davy-jones-locker-bottom-sea/#PDzrHatxfQ7dcTRI.97",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Page not found - ScienceBlog.com",
+        "path": "/private/tmp/burch-press-responses/37-https.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "Laboratory Equipment",
+      "url": "http://www.laboratoryequipment.com/news/2014/10/two-m-barrels-oil-rest-seafloor",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "https://www.labcompare.com/4142-Welcome-to-Labcompare/",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/38.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.labcompare.com/4142-Welcome-to-Labcompare/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/38-https.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "AOL",
+      "url": "http://www.aol.com/article/2014/10/28/deepwater-horizons-footprint-actually-a-bathtub-ring/20985095/?icid=maing-grid7%7Cmain5%7Cdl7%7Csec1_lnk2%26pLid%3D553339",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://www.aol.com/article/2014/10/28/deepwater-horizons-footprint-actually-a-bathtub-ring/20985095/?icid=maing-grid7%7Cmain5%7Cdl7%7Csec1_lnk2%26pLid%3D553339",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/39.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 404,
+        "final": "https://www.aol.com/article/2014/10/28/deepwater-horizons-footprint-actually-a-bathtub-ring/20985095/?icid=maing-grid7%7Cmain5%7Cdl7%7Csec1_lnk2%26pLid%3D553339",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/39-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "UPI",
+      "url": "http://www.upi.com/Science_News/2014/10/27/Hundreds-of-thousands-of-gallons-of-oil-from-BP-spill-may-be-on-the-ocean-floor/7541414454953/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "https://www.upi.com/Science_News/2014/10/27/Hundreds-of-thousands-of-gallons-of-oil-from-BP-spill-may-be-on-the-ocean-floor/7541414454953/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/40.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.upi.com/Science_News/2014/10/27/Hundreds-of-thousands-of-gallons-of-oil-from-BP-spill-may-be-on-the-ocean-floor/7541414454953/",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/40-https.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Newser",
+      "url": "http://www.newser.com/story/197835/bp-spill-left-huge-oily-bathtub-ring.html",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.newser.com/story/197835/bp-spill-left-huge-oily-bathtub-ring.html",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "BP Spill Left Huge, Oily &#39;Bathtub Ring&#39;",
+        "path": "/private/tmp/burch-press-responses/41.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "DeMorgan",
+      "url": "http://www.demorgen.be/wetenschap/waar-is-de-olie-van-de-deepwater-horizon-naartoe-a2104044/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://www.demorgen.be/wetenschap/waar-is-de-olie-van-de-deepwater-horizon-naartoe-a2104044/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/42.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 404,
+        "final": "https://www.demorgen.be/wetenschap/waar-is-de-olie-van-de-deepwater-horizon-naartoe-a2104044/",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/42-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "YLE",
+      "url": "http://yle.fi/uutiset/nelja_vuotta_meksikonlahden_oljyturmasta__merenpohjassa_kaksi_miljoonaa_barrelia_oljya/7555090",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://yle.fi/a/3-7555090",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "Neljä vuotta Meksikonlahden öljyturmasta – merenpohjassa kaksi miljoonaa barrelia öljyä | Yle",
+        "path": "/private/tmp/burch-press-responses/43.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "HLN.BE",
+      "url": "http://www.hln.be/hln/nl/2764/milieu/article/detail/2104044/2014/10/28/Waar-is-de-olie-van-de-Deepwater-Horizon-naartoe.dhtml",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://www.hln.be/web/short/article/2104044",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "Er ging iets fout | hln.be",
+        "path": "/private/tmp/burch-press-responses/44.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 404,
+        "final": "https://www.hln.be/web/short/article/2104044",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Er ging iets fout | hln.be",
+        "path": "/private/tmp/burch-press-responses/44-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "Grist",
+      "url": "http://grist.org/business-technology/there-are-still-tons-of-bp-oil-on-the-bottom-of-the-gulf-of-mexico/?utm_source=syndication&utm_medium=rss&utm_campaign=feed",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://grist.org/business-technology/there-are-still-tons-of-bp-oil-on-the-bottom-of-the-gulf-of-mexico/?utm_source=syndication&utm_medium=rss&utm_campaign=feed",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "There are still tons of BP oil on the bottom of the Gulf of Mexico | Grist",
+        "path": "/private/tmp/burch-press-responses/45.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "The Times",
+      "url": "http://www.thetimes.co.uk/tto/news/world/americas/article4250128.ece",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.thetimes.com/world/us-world/article/bp-spill-left-10m-gallons-of-oil-on-ocean-floor-cc8r7lzxj09",
+        "redirects": 4,
+        "code": 0,
+        "error": "",
+        "title": "BP spill left 10m gallons of oil on ocean floor",
+        "path": "/private/tmp/burch-press-responses/46.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "The Weather Channel",
+      "url": "http://www.weather.com/news/science/environment/bp-oil-spill-oil-gulf-mexico-20141028",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://weather.com/news/science/environment/bp-oil-spill-oil-gulf-mexico-20141028",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/47.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 404,
+        "final": "https://weather.com/news/science/environment/bp-oil-spill-oil-gulf-mexico-20141028",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/47-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "Vice News",
+      "url": "https://news.vice.com/article/scientists-say-an-area-the-size-of-rhode-island-is-coated-with-oil-from-the-bp-well-explosion",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 0,
+        "final": "https://news.vice.com/article/scientists-say-an-area-the-size-of-rhode-island-is-coated-with-oil-from-the-bp-well-explosion",
+        "redirects": 0,
+        "code": 6,
+        "error": "curl: (6) Could not resolve host: news.vice.com",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/48.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Fox News",
+      "url": "http://www.foxnews.com/science/2014/10/28/study-claims-2010-bp-oil-spill-left-bathtub-ring-on-sea-floor/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://www.foxnews.com/science/2014/10/28/study-claims-2010-bp-oil-spill-left-bathtub-ring-on-sea-floor",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "404 | Fox News",
+        "path": "/private/tmp/burch-press-responses/49.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 404,
+        "final": "https://www.foxnews.com/science/2014/10/28/study-claims-2010-bp-oil-spill-left-bathtub-ring-on-sea-floor/",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "404 | Fox News",
+        "path": "/private/tmp/burch-press-responses/49-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination",
+      "resolution": {
+        "status": "repaired",
+        "currentUrl": "https://www.foxnews.com/science/study-claims-2010-bp-oil-spill-left-bathtub-ring-on-sea-floor",
+        "currentLabel": "Fox News",
+        "note": "Verified HTTP 200 and matching title at current URL."
+      }
+    },
+    {
+      "label": "Sail World",
+      "url": "http://www.sail-world.com/USA/Where-is-the-Deepwater-Horizon-oil?/128320",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 0,
+        "final": "http://www.sail-world.com/USA/Where-is-the-Deepwater-Horizon-oil?/128320",
+        "redirects": 0,
+        "code": 56,
+        "error": "curl: (56) Recv failure: Connection reset by peer",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/50.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 0,
+        "final": "https://www.sail-world.com/USA/Where-is-the-Deepwater-Horizon-oil?/128320",
+        "redirects": 0,
+        "code": 92,
+        "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: CANCEL (err 8)",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/50-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Outside",
+      "url": "http://www.outsideonline.com/news-from-the-field/Study-Deepwater-Horizon-Spill-Left-Rhode-Island-Sized-Ring-on-Gulf-Seafloor.html?280701872&utm_campaign=googlenews&utm_source=googlenews&utm_medium=xmlfeed",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.outsideonline.com/outdoor-adventure/gulf-oil-spill-left-gigantic-ring-seafloor/?280701872=&scope=anon&utm_campaign=googlenews&utm_source=googlenews&utm_medium=xmlfeed",
+        "redirects": 5,
+        "code": 0,
+        "error": "",
+        "title": "Gulf Oil Spill Left Gigantic &quot;Ring&quot; on Seafloor",
+        "path": "/private/tmp/burch-press-responses/51.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "LiveScience",
+      "url": "http://www.livescience.com/48490-deepwater-horizon-oil-found.html",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.livescience.com/48490-deepwater-horizon-oil-found.html",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Oil from BP Spill Coats Miles of Gulf Seafloor | Live Science",
+        "path": "/private/tmp/burch-press-responses/52.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Science World Report",
+      "url": "http://www.scienceworldreport.com/articles/18400/20141028/where-deepwater-horizon-spills-oil-go-contaminated-deep-ocean.htm",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "http://www.scienceworldreport.com/articles/18400/20141028/where-deepwater-horizon-spills-oil-go-contaminated-deep-ocean.htm",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Where Did the Deepwater Horizon Spill&#039;s Oil Go? The Contaminated Deep Ocean : Nature & Environment : Science World Report",
+        "path": "/private/tmp/burch-press-responses/53.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "South China Morning Post",
+      "url": "http://www.scmp.com/news/world/article/1626912/bp-oil-spill-deepwater-horizon-spread-over-huge-area-ocean-floor",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "https://www.scmp.com/news/world/article/1626912/bp-oil-spill-deepwater-horizon-spread-over-huge-area-ocean-floor",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/54.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.scmp.com/news/world/article/1626912/bp-oil-spill-deepwater-horizon-spread-over-huge-area-ocean-floor",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/54-https.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "The Weather Network",
+      "url": "http://www.theweathernetwork.com/news/articles/where-did-the-missing-deepwater-horizon-oil-go-it-fell-like-dark-rain-onto-the-ocean-floor/38764/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.theweathernetwork.com/en?_guid_iss_=1",
+        "redirects": 4,
+        "code": 0,
+        "error": "",
+        "title": "The Weather Network: Weather forecasts, maps, news and videos",
+        "path": "/private/tmp/burch-press-responses/55.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "RedOrbit",
+      "url": "http://www.redorbit.com/news/science/1113267461/oil-from-deepwater-horizon-at-the-bottom-of-the-sea-102914/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://www.redorbit.com/news/science/1113267461/oil-from-deepwater-horizon-at-the-bottom-of-the-sea-102914/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Page not found - Redorbit",
+        "path": "/private/tmp/burch-press-responses/56.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "https": {
+        "status": 404,
+        "final": "https://www.redorbit.com/news/science/1113267461/oil-from-deepwater-horizon-at-the-bottom-of-the-sea-102914/",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Page not found - Redorbit",
+        "path": "/private/tmp/burch-press-responses/56-https.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "News.com.au",
+      "url": "http://www.news.com.au/technology/environment/bps-gulf-of-mexico-deepwater-horizon-oil-spill-left-a-bathtub-ring-on-the-sea-floor-scientist-david-valentine-says/story-e6frflp0-1227105384738",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "http://www.news.com.au/technology/environment/bps-gulf-of-mexico-deepwater-horizon-oil-spill-left-a-bathtub-ring-on-the-sea-floor-scientist-david-valentine-says/story-e6frflp0-1227105384738",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/57.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.news.com.au/technology/environment/bps-gulf-of-mexico-deepwater-horizon-oil-spill-left-a-bathtub-ring-on-the-sea-floor-scientist-david-valentine-says/story-e6frflp0-1227105384738",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/57-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Smithsonian",
+      "url": "http://www.smithsonianmag.com/smart-news/weve-found-millions-gallons-missing-oil-deepwater-horizon-180953173/?no-ist",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "https://www.smithsonianmag.com/smart-news/weve-found-millions-gallons-missing-oil-deepwater-horizon-180953173/?no-ist",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/58.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.smithsonianmag.com/smart-news/weve-found-millions-gallons-missing-oil-deepwater-horizon-180953173/?no-ist",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Just a moment...",
+        "path": "/private/tmp/burch-press-responses/58-https.html",
+        "botPage": true,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "The Verge",
+      "url": "http://www.theverge.com/2014/10/28/7082965/deepwater-horizon-spill-left-an-oil-ring-the-size-of-rhode-island-at",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.theverge.com/2014/10/28/7082965/deepwater-horizon-spill-left-an-oil-ring-the-size-of-rhode-island-at",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Deepwater Horizon spill left an oil ring the size of Rhode Island at the bottom of the sea, study says | The Verge",
+        "path": "/private/tmp/burch-press-responses/59.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "StateImpact",
+      "url": "http://stateimpact.npr.org/texas/2014/10/28/deepwater-horizon-oil-may-sit-on-ocean-floor-but-how-did-it-get-there/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://stateimpact.npr.org/texas/2014/10/28/deepwater-horizon-oil-may-sit-on-ocean-floor-but-how-did-it-get-there/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Deepwater Horizon Oil May Sit On Ocean Floor, But How Did It Get There? | StateImpact Texas",
+        "path": "/private/tmp/burch-press-responses/60.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Gizmodo",
+      "url": "http://gizmodo.com/where-deepwater-horizons-oil-went-and-how-we-found-it-1651663554",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://gizmodo.com/where-deepwater-horizons-oil-went-and-how-we-found-it-1651663554",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Where Deepwater Horizon&#039;s Oil Went—and How Researchers Found It",
+        "path": "/private/tmp/burch-press-responses/61.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "NBC News",
+      "url": "http://www.nbcnews.com/science/environment/bp-oil-spill-left-rhode-island-sized-bathtub-ring-seafloor-n234961",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.nbcnews.com/science/environment/bp-oil-spill-left-rhode-island-sized-bathtub-ring-seafloor-n234961",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "BP Oil Spill Left Rhode Island-Sized &#x27;Bathtub Ring&#x27; on Seafloor: Study",
+        "path": "/private/tmp/burch-press-responses/62.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Time",
+      "url": "http://time.com/3542186/bp-oil-spill-seafloor-damage/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 406,
+        "final": "https://time.com/3542186/bp-oil-spill-seafloor-damage/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/63.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 406,
+        "final": "https://time.com/3542186/bp-oil-spill-seafloor-damage/",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/63-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Phys.org",
+      "url": "http://phys.org/news/2014-10-million-barrels-oil-ocean-floor.html",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 400,
+        "final": "https://phys.org/news/2014-10-million-barrels-oil-ocean-floor.html",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "400 Bad Request",
+        "path": "/private/tmp/burch-press-responses/64.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 400,
+        "final": "https://phys.org/news/2014-10-million-barrels-oil-ocean-floor.html",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "400 Bad Request",
+        "path": "/private/tmp/burch-press-responses/64-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Huffington Post",
+      "url": "http://www.huffingtonpost.com/2014/10/27/gulf-oil-spill-bathtub-ring_n_6056348.html",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://www.huffpost.com/2014/10/27/gulf-oil-spill-bathtub-ring_n_6056348.html",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/65.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 404,
+        "final": "https://www.huffpost.com/2014/10/27/gulf-oil-spill-bathtub-ring_n_6056348.html",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/65-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "Mother Jones",
+      "url": "http://www.motherjones.com/environment/2014/10/bp-deepwater-horizon-study-oil-ocean-floor",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.motherjones.com/environment/2014/10/bp-deepwater-horizon-study-oil-ocean-floor/",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "Tons of BP Oil Is Still on the Bottom of the Gulf of Mexico &#8211; Mother Jones",
+        "path": "/private/tmp/burch-press-responses/66.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Fuel Fix",
+      "url": "http://fuelfix.com/blog/2014/10/27/researchers-find-oil-footprint-from-2010-gulf-oil-spill/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.houstonchronicle.com/business/fuelfix/blog/2014/10/27/researchers-find-oil-footprint-from-2010-gulf-oil-spill/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Client Challenge",
+        "path": "/private/tmp/burch-press-responses/67.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Ocean News & Technology",
+      "url": "http://enews.oceannews.com/enews-articles/study-provides-some-answers-to-fate-of-deepwater-horizon-oil?utm_source=+Ocean+E-news+October+29%2C+2014&utm_campaign=Ocean+E-news+10-29-14&utm_medium=email",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 0,
+        "final": "http://enews.oceannews.com/enews-articles/study-provides-some-answers-to-fate-of-deepwater-horizon-oil?utm_source=+Ocean+E-news+October+29%2C+2014&utm_campaign=Ocean+E-news+10-29-14&utm_medium=email",
+        "redirects": 0,
+        "code": 6,
+        "error": "curl: (6) Could not resolve host: enews.oceannews.com",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/68.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 0,
+        "final": "https://enews.oceannews.com/enews-articles/study-provides-some-answers-to-fate-of-deepwater-horizon-oil?utm_source=+Ocean+E-news+October+29%2C+2014&utm_campaign=Ocean+E-news+10-29-14&utm_medium=email",
+        "redirects": 0,
+        "code": 6,
+        "error": "curl: (6) Could not resolve host: enews.oceannews.com",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/68-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "ScienceNews",
+      "url": "https://www.sciencenews.org/article/oil-bp-spill-may-be-sitting-seafloor",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.sciencenews.org/article/oil-bp-spill-may-be-sitting-seafloor",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Oil from BP spill may be sitting on seafloor",
+        "path": "/private/tmp/burch-press-responses/69.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "EarthSky",
+      "url": "http://earthsky.org/earth/where-is-the-missing-deepwater-horizon-oil",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://earthsky.org/earth/where-is-the-missing-deepwater-horizon-oil/",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "Where is the missing Deepwater Horizon oil? | Earth | EarthSky",
+        "path": "/private/tmp/burch-press-responses/70.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Digital Journal",
+      "url": "http://www.digitaljournal.com/news/environment/where-did-all-that-bp-oil-go-scientists-finds-out/article/411411",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "https://www.digitaljournal.com/news/environment/where-did-all-that-bp-oil-go-scientists-finds-out/article/411411",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Checking your browser...",
+        "path": "/private/tmp/burch-press-responses/71.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.digitaljournal.com/news/environment/where-did-all-that-bp-oil-go-scientists-finds-out/article/411411",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Checking your browser...",
+        "path": "/private/tmp/burch-press-responses/71-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Futurity",
+      "url": "http://www.futurity.org/deepwater-oil-spill-792072/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "http://www.futurity.org/deepwater-oil-spill-792072/",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Page Not Found - Futurity",
+        "path": "/private/tmp/burch-press-responses/72.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "https": {
+        "status": 404,
+        "final": "https://www.futurity.org/deepwater-oil-spill-792072/",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Page Not Found - Futurity",
+        "path": "/private/tmp/burch-press-responses/72-https.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "ACS Chemical & Engineering News",
+      "url": "http://cen.acs.org/articles/92/web/2014/10/Oil-Rose-Fell-Deepwater-Horizon.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+cen_latestnews+%28Chemical+%26+Engineering+News%3A+Latest+News%29",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://cen.acs.org/articles/92/web/2014/10/Oil-Rose-Fell-Deepwater-Horizon.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+cen_latestnews+%28Chemical+%26+Engineering+News%3A+Latest+News%29",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Oil Rose And Then Fell After Deepwater Horizon Disaster",
+        "path": "/private/tmp/burch-press-responses/73.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "RT",
+      "url": "http://rt.com/usa/200167-bp-oil-ring-spill-deepwater/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.rt.com/usa/200167-bp-oil-ring-spill-deepwater/",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "BP oil spill left Rhode Island-sized oily ring on seafloor — RT USA News",
+        "path": "/private/tmp/burch-press-responses/74.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Jackson School of Geosciences",
+      "url": "http://www.jsg.utexas.edu/news/2014/10/deepwater-horizon-oil-may-sit-on-ocean-floor-but-how-did-it-get-there/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.jsg.utexas.edu/news/2014/10/deepwater-horizon-oil-may-sit-on-ocean-floor-but-how-did-it-get-there/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Deepwater Horizon Oil May Sit On Ocean Floor, But How Did It Get There? | Jackson School of Geosciences | The University of Texas at Austin",
+        "path": "/private/tmp/burch-press-responses/75.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Planet Experts",
+      "url": "http://www.planetexperts.com/bp-oil-spill-left-ring-oil-ocean-floor-size-rhode-island/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "http://www.planetexperts.com/bp-oil-spill-left-ring-oil-ocean-floor-size-rhode-island/",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Web Page Under Construction",
+        "path": "/private/tmp/burch-press-responses/76.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "ChemEurope",
+      "url": "http://www.chemeurope.com/en/news/150269/where-did-all-the-oil-go.html",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.chemeurope.com/en/news/150269/where-did-all-the-oil-go.html",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Where did all the oil go? - A UCSB professor's analysis traces oil from the 2010 Deepwater Horizon event to its resting place on the Gulf of Mexico's deep floor",
+        "path": "/private/tmp/burch-press-responses/77.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "AL.com",
+      "url": "http://www.al.com/business/index.ssf/2014/10/researchers_say_a_bathtub_ring.html",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "http://www.al.com/business/index.ssf/2014/10/researchers_say_a_bathtub_ring.html",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "al.com",
+        "path": "/private/tmp/burch-press-responses/78.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://www.al.com/business/index.ssf/2014/10/researchers_say_a_bathtub_ring.html",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "al.com",
+        "path": "/private/tmp/burch-press-responses/78-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "El Dinamo",
+      "url": "http://www.eldinamo.cl/quienes-somos/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://www.eldinamo.cl/quienes-somos/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "El Dínamo | Noticias de Chile y el mundo",
+        "path": "/private/tmp/burch-press-responses/79.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 404,
+        "final": "https://www.eldinamo.cl/quienes-somos/",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "El Dínamo | Noticias de Chile y el mundo",
+        "path": "/private/tmp/burch-press-responses/79-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "Fire Engineering",
+      "url": "http://www.fireengineering.com/ap-news/2014/10/27/bp-spill-left-big-oily-bathtub-ring-on-seafloor.html",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.fireengineering.com/news/",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "Fire Engineering Breaking News: Incidents &amp; Safety Updates",
+        "path": "/private/tmp/burch-press-responses/80.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "TakePart",
+      "url": "http://www.takepart.com/article/2014/10/29/scientists-find-84-million-gallons-oil-deepwater-horizon-disaster--boom-ocean",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "http://www.takepart.com/article/2014/10/29/scientists-find-84-million-gallons-oil-deepwater-horizon-disaster--boom-ocean",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Page not found - Participant",
+        "path": "/private/tmp/burch-press-responses/81.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "https": {
+        "status": 404,
+        "final": "https://www.takepart.com/article/2014/10/29/scientists-find-84-million-gallons-oil-deepwater-horizon-disaster--boom-ocean",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Page not found - Participant",
+        "path": "/private/tmp/burch-press-responses/81-https.html",
+        "botPage": false,
+        "missingPage": true
+      },
+      "assessment": "broken-or-wrong-destination"
+    },
+    {
+      "label": "Nature World News",
+      "url": "http://www.natureworldnews.com/articles/9962/20141030/miles-of-gulf-seafloor-slick-with-oil-from-bp-spill.htm",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.natureworldnews.com/articles/9962/20141030/miles-of-gulf-seafloor-slick-with-oil-from-bp-spill.htm",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Miles of Gulf Seafloor Slick with Oil from BP Spill",
+        "path": "/private/tmp/burch-press-responses/82.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Climate Desk",
+      "url": "http://climatedesk.org/2014/10/tons-of-bp-oil-is-still-on-the-bottom-of-the-gulf-of-mexico/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://www.climatedesk.org/2014/10/tons-of-bp-oil-is-still-on-the-bottom-of-the-gulf-of-mexico/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/83.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 404,
+        "final": "https://www.climatedesk.org/2014/10/tons-of-bp-oil-is-still-on-the-bottom-of-the-gulf-of-mexico/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/83-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination",
+      "resolution": {
+        "status": "consolidated",
+        "currentUrl": "http://www.motherjones.com/environment/2014/10/bp-deepwater-horizon-study-oil-ocean-floor",
+        "note": "Same Climate Desk story is available at existing Mother Jones entry; removed duplicate broken link and added attribution."
+      }
+    },
+    {
+      "label": "Galileo",
+      "url": "http://www.galileonet.it/articles/544fc4b4a5717a0f6d0000b4",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 404,
+        "final": "https://www.galileonet.it/articles/544fc4b4a5717a0f6d0000b4",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Pagina non trovata - Galileo",
+        "path": "/private/tmp/burch-press-responses/84.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 404,
+        "final": "https://www.galileonet.it/articles/544fc4b4a5717a0f6d0000b4",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "Pagina non trovata - Galileo",
+        "path": "/private/tmp/burch-press-responses/84-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "broken-or-wrong-destination",
+      "resolution": {
+        "status": "repaired",
+        "currentUrl": "https://www.galileonet.it/deepwater-horizon-un-quinto-del-petrolio-e-sul-fondo-del-mare/",
+        "currentLabel": "Galileo",
+        "note": "Verified date and article content at current URL."
+      }
+    },
+    {
+      "label": "Wired (Italy)",
+      "url": "http://www.wired.it/attualita/ambiente/2014/10/29/disastro-deepwater-horizon-petrolio-fondo-mare/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.wired.it/attualita/ambiente/2014/10/29/disastro-deepwater-horizon-petrolio-fondo-mare/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Disastro Deepwater Horizon, tanto petrolio sul fondo del mare | Wired Italia",
+        "path": "/private/tmp/burch-press-responses/85.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Southern California Public Radio",
+      "url": "http://www.scpr.org/programs/take-two/2014/10/30/40084/yosemite-sized-bathtub-ring-of-oil-still-left-from/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://laist.com/shows/take-two/yosemite-sized-bathtub-ring-of-oil-still-left-from-bp-deepwater-horizon-spill",
+        "redirects": 4,
+        "code": 0,
+        "error": "",
+        "title": "Yosemite-sized &#x27;bathtub ring&#x27; of oil still left from BP Deepwater Horizon spill | LAist",
+        "path": "/private/tmp/burch-press-responses/86.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Slashdot",
+      "url": "http://news.slashdot.org/story/14/10/28/2127223/location-of-spilled-oil-from-2010-deepwater-horizon-event-found",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://news.slashdot.org/story/14/10/28/2127223/location-of-spilled-oil-from-2010-deepwater-horizon-event-found",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Location of Spilled Oil From 2010 Deepwater Horizon Event Found - Slashdot",
+        "path": "/private/tmp/burch-press-responses/87.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Tages Anzeiger",
+      "url": "http://www.tagesanzeiger.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 302,
+        "final": "https://www.tagesanzeiger.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+        "redirects": 8,
+        "code": 47,
+        "error": "curl: (47) Maximum (8) redirects followed",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/88.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 302,
+        "final": "https://www.tagesanzeiger.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+        "redirects": 8,
+        "code": 47,
+        "error": "curl: (47) Maximum (8) redirects followed",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/88-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Der Bund",
+      "url": "http://www.derbund.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 302,
+        "final": "https://www.derbund.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+        "redirects": 8,
+        "code": 47,
+        "error": "curl: (47) Maximum (8) redirects followed",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/89.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 302,
+        "final": "https://www.derbund.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+        "redirects": 8,
+        "code": 47,
+        "error": "curl: (47) Maximum (8) redirects followed",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/89-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Berner Zeitung",
+      "url": "http://www.bernerzeitung.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 302,
+        "final": "https://www.bernerzeitung.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+        "redirects": 8,
+        "code": 47,
+        "error": "curl: (47) Maximum (8) redirects followed",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/90.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 302,
+        "final": "https://www.bernerzeitung.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+        "redirects": 8,
+        "code": 47,
+        "error": "curl: (47) Maximum (8) redirects followed",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/90-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Basler Zeitung",
+      "url": "http://bazonline.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 302,
+        "final": "https://www.bazonline.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+        "redirects": 8,
+        "code": 47,
+        "error": "curl: (47) Maximum (8) redirects followed",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/91.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 302,
+        "final": "https://www.bazonline.ch/wissen/natur/3200-Quadratkilometer-Meeresboden-mit-Oel-bedeckt-/story/23349444",
+        "redirects": 8,
+        "code": 47,
+        "error": "curl: (47) Maximum (8) redirects followed",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/91-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Homeland Security News Wire",
+      "url": "http://www.homelandsecuritynewswire.com/dr20141029-resting-place-of-2-million-barrels-of-oil-missing-from-deepwater-horizon-accident-found",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.homelandsecuritynewswire.com/dr20141029-resting-place-of-2-million-barrels-of-oil-missing-from-deepwater-horizon-accident-found",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Oil spills business environment | Homeland Security Newswire",
+        "path": "/private/tmp/burch-press-responses/92.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "ThinkProgress",
+      "url": "http://thinkprogress.org/climate/2014/10/28/3585245/bp-oil-spill-bathtub-ring/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 403,
+        "final": "https://thinkprogress.org/climate/2014/10/28/3585245/bp-oil-spill-bathtub-ring/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/93.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "https": {
+        "status": 403,
+        "final": "https://thinkprogress.org/climate/2014/10/28/3585245/bp-oil-spill-bathtub-ring/",
+        "redirects": 0,
+        "code": 0,
+        "error": "",
+        "title": "",
+        "path": "/private/tmp/burch-press-responses/93-https.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "National Geographic",
+      "url": "http://voices.nationalgeographic.com/2014/10/30/epa-refines-pollution-rules/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://news.nationalgeographic.org/epa-refines-pollution-rules/",
+        "redirects": 3,
+        "code": 0,
+        "error": "",
+        "title": "Icons/Content/map",
+        "path": "/private/tmp/burch-press-responses/94.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "unverified"
+    },
+    {
+      "label": "Scientific American",
+      "url": "http://www.scientificamerican.com/article/deepwater-horizon-gunk-settled-far-and-wide/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.scientificamerican.com/article/deepwater-horizon-gunk-settled-far-and-wide/",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Deepwater Horizon Gunk Settled Far and Wide | Scientific American",
+        "path": "/private/tmp/burch-press-responses/95.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Earth Island Journal",
+      "url": "http://www.earthisland.org/journal/index.php/elist/eListRead/bp_oil_spill_left_rhode_island-sized_bathtub_ring_on_ocean_floor/",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.earthisland.org/journal/index.php/articles/entry/bp_oil_spill_left_rhode_island-sized_bathtub_ring_on_ocean_floor/",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "BP Oil Spill Left Rhode Island-Sized &#8216;Bathtub Ring&#8217; on Ocean Floor",
+        "path": "/private/tmp/burch-press-responses/96.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Rappler",
+      "url": "http://www.rappler.com/science-nature/environment/73367-2-million-barrels-oil-ocean-floor-bp-spill",
+      "group": "FALLOUT PLUME FROM DEEPWATER HORIZON - Valentine et al., 2014",
+      "original": {
+        "status": 200,
+        "final": "https://www.rappler.com/environment/73367-2-million-barrels-oil-ocean-floor-bp-spill/",
+        "redirects": 2,
+        "code": 0,
+        "error": "",
+        "title": "2 million barrels of oil on ocean floor after BP spill",
+        "path": "/private/tmp/burch-press-responses/97.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Historic California Quake Released Surprising Energy (LiveScience)",
+      "url": "http://www.livescience.com/28069-owens-valley-california-earthquake-risk.html",
+      "group": "1872 OWENS VALLEY FAULT RUPTURE EXTENT - Amos et al., 2013",
+      "original": {
+        "status": 200,
+        "final": "https://www.livescience.com/28069-owens-valley-california-earthquake-risk.html",
+        "redirects": 1,
+        "code": 0,
+        "error": "",
+        "title": "Historic California Quake Released Surprising Energy | Live Science",
+        "path": "/private/tmp/burch-press-responses/98.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "CRMS Newsletter (page 11)",
+      "url": "downloads/crms_alumni2011_page11.pdf",
+      "group": "WHY I AM A GEOLOGIST",
+      "original": {
+        "status": 200,
+        "local": true,
+        "final": "downloads/crms_alumni2011_page11.pdf"
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Middlebury College #1",
+      "url": "http://www.middlebury.edu/newsroom/archive/2005/node/112667",
+      "group": "NEW LAKE CHAMPLAIN BATHYMETRY - Manley et al., 2005",
+      "original": {
+        "status": 200,
+        "final": "https://www.middlebury.edu/stories/archive/2005/07/laura-kelly-and-burch-fisher-05-assist-most-extensive-bathymetric-mapping-lake",
+        "redirects": 4,
+        "code": 0,
+        "error": "",
+        "title": "Laura Kelly and Burch Fisher &#039;05 assist in the most extensive bathymetric mapping of Lake Champlain ever completed | Midd Stories",
+        "path": "/private/tmp/burch-press-responses/100.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    },
+    {
+      "label": "Middlebury College #2",
+      "url": "http://www.middlebury.edu/newsroom/archive/2005/node/112254",
+      "group": "NEW LAKE CHAMPLAIN BATHYMETRY - Manley et al., 2005",
+      "original": {
+        "status": 200,
+        "final": "https://www.middlebury.edu/stories/archive/2005/07/sen-patrick-leahy-and-middlebury-college-president-ronald-d-liebowitz-unveil-new",
+        "redirects": 4,
+        "code": 0,
+        "error": "",
+        "title": "Sen. Patrick Leahy and Middlebury College President Ronald D. Liebowitz unveil a new map of the underwater landscape of Lake Champlain | Midd Stories",
+        "path": "/private/tmp/burch-press-responses/101.html",
+        "botPage": false,
+        "missingPage": false
+      },
+      "assessment": "working-in-initial-check"
+    }
+  ],
+  "repairSummary": {
+    "updatedOn": "2026-10-09",
+    "repairedUrls": 7,
+    "consolidatedDuplicates": 1,
+    "remainingBrokenOrWrongDestination": 0,
+    "removedBrokenLinks": 15,
+    "currentWebsiteLinks": 86,
+    "remainingUnverified": 29,
+    "archiveLimitation": "Internet Archive availability API returned 429 and CDX endpoint returned a temporarily offline page; no unverified snapshots added."
+  }
+}
