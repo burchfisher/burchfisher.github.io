@@ -283,6 +283,7 @@
 .resource-filters button:focus-visible { outline: 2px solid var(--cyan); outline-offset: 4px; }
 .resource-count { color: var(--muted); font-size: 12px; margin: 0 0 24px; }
 .dialog-resource[hidden] { display: none; }
+.resource-credit { color: var(--muted); font-size: 12px; line-height: 1.6; align-self: center; }
 .teaching-section-title { font-size: 20px; font-weight: 400; margin: 32px 0 16px; }
 .panel-course .resource-links { font-size: 14px; gap: 12px 22px; }
 .press-citation h3 { font-size: 22px; line-height: 1.4; font-weight: 400; margin: 16px 0 12px; }
