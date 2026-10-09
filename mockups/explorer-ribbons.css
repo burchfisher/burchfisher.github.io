@@ -45,6 +45,7 @@
   .ribbon-explorer .explorer-bottom { width: calc(100% + 3 * var(--ribbon-step)); }
 }
 @media (max-width: 800px) {
+  .ribbon-explorer { --page-gutter: 28px; }
   .ribbon-explorer .earth-stage { grid-template-columns: minmax(0,1fr); grid-template-areas: 'title' 'ribbons' 'focus'; grid-template-rows: auto; gap: 30px; padding: 30px 28px; }
   .ribbon-explorer .explorer-title { margin: 0; }
   .ribbon-explorer .image-ribbon { height: 72px; margin-left: 0; }
@@ -52,6 +53,7 @@
   .ribbon-explorer .explorer-project { grid-template-columns: 1fr 1.15fr; }
 }
 @media (max-width: 480px) {
+  .ribbon-explorer { --page-gutter: 20px; }
   .ribbon-explorer .earth-stage { padding: 26px 20px; }
   .ribbon-explorer .explorer-title h1 { font-size: 44px; }
   .ribbon-explorer .explorer-project { grid-template-columns: minmax(0,1fr); }
