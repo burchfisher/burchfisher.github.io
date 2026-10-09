@@ -229,7 +229,8 @@ const siteContent = {
     {
       "title": "LYNDSAY AKA \"MOTHER OF MUFFINS\"",
       "image": "assets/team/img-0002_orig.jpg",
-      "text": "Lyndsay works on curing your future eye diseases using stem cells and zebrafish as well as making her husband a slightly less ridiculous person. She is also the mother of Rufus and Jade, which means I am constantly surrounded by gingers and hairballs!"
+      "text": "Lyndsay works on curing your future eye diseases using stem cells and zebrafish as well as making her husband a slightly less ridiculous person. She is also the mother of Rufus and Jade, which means I am constantly surrounded by gingers and hairballs! We once even survived working on a paper together.",
+      "papers": ["10.3791/63658"]
     },
     {
       "title": "RUFUS MUFFIN FISHER AKA \"THE GREAT ORANGE BEAR\"",
