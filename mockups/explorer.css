@@ -173,7 +173,8 @@
 .archive-section ul { padding-left: 20px; }
 .archive-section li { margin: 12px 0; line-height: 1.5; }
 .archive-section a { color: var(--cyan); overflow-wrap: anywhere; }
-.team-profile { display: grid; grid-template-columns: 170px minmax(0,1fr); gap: 26px; }
+.team-profile { display: grid; grid-template-columns: 170px minmax(0,1fr); gap: 26px; border-top: 0; }
+.dialog-label + .team-profile { border-top: 1px solid var(--line); }
 .team-profile img { display: block; width: 100%; height: auto; }
 .team-profile h3 { overflow-wrap: anywhere; line-height: 1.4; }
 .team-photo-placeholder { aspect-ratio: 3 / 4; display: grid; place-items: center; background: #101a22; border: 1px solid var(--line); color: var(--muted); font: 40px/1 'SFMono-Regular',Consolas,'Courier New',monospace; }
@@ -181,9 +182,9 @@
 .team-links { margin-top: 18px; gap: 12px 22px; }
 .team-projects-title { font-size: 13px; font-weight: 600; margin: 24px 0 12px; }
 .team-profile .team-projects { list-style: none; padding: 0; margin: 0; }
-.team-profile .team-projects li { font-size: 13px; margin: 0; padding: 9px 0; border-bottom: 1px solid var(--line); }
+.team-profile .team-projects li { font-size: 13px; margin: 0; padding: 9px 0; border-bottom: 0; }
 .team-profile .research-papers { padding: 0; }
-.team-profile .research-papers li { margin: 0; }
+.team-profile .research-papers li { margin: 0; border-bottom: 0; }
 .team-profile .research-papers a { color: var(--ink); }
 .team-profile .research-papers a:hover { color: var(--cyan); }
 @media (max-width: 720px) {
