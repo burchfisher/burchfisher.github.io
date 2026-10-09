@@ -175,7 +175,10 @@
 .team-profile img { display: block; width: 100%; height: auto; }
 .team-profile h3 { overflow-wrap: anywhere; line-height: 1.4; }
 .team-photo-placeholder { aspect-ratio: 3 / 4; display: grid; place-items: center; background: #101a22; border: 1px solid var(--line); color: var(--muted); font: 40px/1 'SFMono-Regular',Consolas,'Courier New',monospace; }
-.team-profile .team-role { color: var(--cyan); font: 12px/1.6 'SFMono-Regular',Consolas,'Courier New',monospace; margin: 0 0 14px; }
+.team-profile .team-role { color: var(--muted); font: 12px/1.6 'SFMono-Regular',Consolas,'Courier New',monospace; margin: 0 0 14px; }
+.team-profile .team-role[data-degree="undergraduate"] { color: var(--green); }
+.team-profile .team-role[data-degree="masters"] { color: var(--cyan); }
+.team-profile .team-role[data-degree="phd"] { color: var(--violet); }
 .team-links { margin-top: 18px; gap: 12px 22px; }
 .team-projects-title { font-size: 13px; font-weight: 600; margin: 24px 0 12px; }
 .team-profile .team-projects { list-style: none; padding: 0; margin: 0; }

@@ -160,6 +160,7 @@ const siteContent = {
       "title": "JEFF LARKIN",
       "initials": "JL",
       "role": "Ph.D. student / University of Massachusetts Amherst",
+      "degreeLevel": "phd",
       "text": "Jeff is a Ph.D. student in the Environmental Conservation Department at the University of Massachusetts Amherst, studying how forest LiDAR metrics can inform forest and wildlife management. I serve on his Ph.D. thesis committee."
     },
     {
@@ -208,7 +209,8 @@ const siteContent = {
       "title": "JUSTIN TRAN",
       "image": "assets/team/img-7520_orig.jpg",
       "text": "I co-advised Justin's M.S. thesis at UC Santa Barbara with David Valentine, investigating the morphology of hydrocarbon-induced topography using high-resolution bathymetry from autonomous underwater vehicles. Justin was supported by the Department of Defense's Science, Mathematics, and Research for Transformation (SMART) Scholarship for Service Program.",
-      "role": "M.S. graduate / UC Santa Barbara / 2018"
+      "role": "M.S. graduate / UC Santa Barbara / 2018",
+      "degreeLevel": "masters"
     },
     {
       "title": "MICHAEL CHRISTOFFERSEN",
@@ -217,7 +219,8 @@ const siteContent = {
       ],
       "image": "assets/team/postcave.png",
       "text": "Michael worked with me from 2015 to 2016 as an undergraduate research assistant at the University of Texas at Austin, where he studied geophysics and computer science (class of 2019). His work included paleomagnetic analyses of samples from Argentina in the UT Paleomagnetics Laboratory.",
-      "role": "Undergraduate research assistant / University of Texas at Austin / Class of 2019"
+      "role": "Undergraduate research assistant / University of Texas at Austin / Class of 2019",
+      "degreeLevel": "undergraduate"
     },
     {
       "title": "INTEGRAL MEMBERS",
