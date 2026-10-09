@@ -216,7 +216,7 @@ const siteContent = {
         "10.1073/pnas.1700327114"
       ],
       "image": "assets/team/postcave.png",
-      "text": "Michael worked with me from 2015 to 2016 as an undergraduate research assistant at the University of Texas at Austin, where he studied geophysics and computer science (class of 2019). His work included paleomagnetic analyses of samples from Argentina in the UT Paleomagnetics Laboratory and developing an open-source Python version of the ChanGeom algorithms.",
+      "text": "Michael worked with me from 2015 to 2016 as an undergraduate research assistant at the University of Texas at Austin, where he studied geophysics and computer science (class of 2019). His work included paleomagnetic analyses of samples from Argentina in the UT Paleomagnetics Laboratory.",
       "role": "Undergraduate research assistant / University of Texas at Austin / Class of 2019"
     },
     {
