@@ -176,6 +176,8 @@
 .team-profile { display: grid; grid-template-columns: 170px minmax(0,1fr); gap: 26px; border-top: 0; }
 .dialog-label + .team-profile { border-top: 1px solid var(--line); }
 .team-profile img { display: block; width: 100%; height: auto; }
+.team-profile figure:has(img[src$="stephen-conklin.jpg"]) { position: relative; aspect-ratio: 4 / 5; overflow: hidden; }
+.team-profile img[src$="stephen-conklin.jpg"] { position: absolute; top: 0; left: 0; width: 240%; max-width: none; transform: translate(-22%,-26%); }
 .team-profile h3 { overflow-wrap: anywhere; line-height: 1.4; }
 .team-photo-placeholder { aspect-ratio: 3 / 4; display: grid; place-items: center; background: #101a22; border: 1px solid var(--line); color: var(--muted); font: 40px/1 'SFMono-Regular',Consolas,'Courier New',monospace; }
 .team-profile .team-role { color: var(--cyan); font: 12px/1.6 'SFMono-Regular',Consolas,'Courier New',monospace; margin: 0 0 14px; }
