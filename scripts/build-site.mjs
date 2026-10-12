@@ -9,7 +9,7 @@ const output = path.join(root, 'dist');
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 
-const browserAssets = ['experiments.css', 'explorer.css', 'explorer-ribbons.css', 'experiments.js', 'explorer-ribbons.js', 'site-content.js', 'publications.js'];
+const browserAssets = ['experiments.css', 'explorer.css', 'explorer-ribbons.css', 'experiments.js', 'explorer-ribbons.js', 'site-content.js', 'publications.js', 'theme.js'];
 const versions = new Map();
 for (const name of ['assets', 'downloads', ...browserAssets]) {
   await cp(path.join(source, name), path.join(output, name), { recursive: true });
