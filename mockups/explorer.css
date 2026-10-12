@@ -365,3 +365,5 @@ html[data-theme="light"] .explorer .course-code,
 html[data-theme="light"] .explorer .news-entry h3,
 html[data-theme="light"] .explorer .teaching-section-title,
 html[data-theme="light"] .explorer .press-citation h3 { font-weight: 500; }
+html[data-theme="light"] .explorer .explorer-title > .profile-fields,
+html[data-theme="light"] .explorer .explorer-caption { font-weight: 600; }
