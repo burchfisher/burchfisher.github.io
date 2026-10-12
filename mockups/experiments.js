@@ -28,10 +28,10 @@ if (document.body.dataset.design === 'explorer') {
     return `<section class="research-theme" id="research-${theme.id}"><p class="dialog-label">0${index + 1} / ${escapeText(theme.label)}</p><h3>${escapeText(theme.title)}</h3><p>${escapeText(theme.description)}</p>${theme.detail ? `<p>${escapeText(theme.detail)}</p>` : ''}${papers.length ? `<h4>Selected publications</h4><ul class="research-papers">${papers.map(paper => `<li><span>${paper.year}</span>${publicationTitle(paper)}</li>`).join('')}</ul>` : ''}${productEntries}<div class="research-links">${theme.links.map(link => `<a href="${link.url}" target="_blank" rel="noopener">${escapeText(link.label)}</a>`).join('')}</div></section>`;
   }).join('');
   const focuses = [
-    { title: 'Landscapes<br>through time.', description: 'How climate and tectonics shape erosion in mountain landscapes.', section: 'geomorphology' },
-    { title: 'Forests,<br>seen differently.', description: 'LiDAR and machine learning connect forest structure with conservation planning.', section: 'remote-sensing' },
-    { title: 'The ocean<br>beneath the spill.', description: 'Tracing the persistence and biodegradation of oil following Deepwater Horizon.', section: 'marine' },
-    { title: 'Building<br>research capacity.', description: 'Building institutional knowledge and capability in high-performance computing, AI, open science, and data visualization.', section: 'scipe' }
+    { title: 'Landscape<br>evolution', description: 'Understanding how climate, tectonics, and surface processes shape landscapes and their environmental histories.', section: 'geomorphology' },
+    { title: 'Remote sensing<br>& conservation', description: 'Connecting landscape structure, vegetation dynamics, and biodiversity through geospatial observations and computational analysis.', section: 'remote-sensing' },
+    { title: 'Marine processes<br>& biogeochemistry', description: 'Exploring seafloor environments, the fate of hydrocarbons, and the physical and biological processes that connect them.', section: 'marine' },
+    { title: 'Research<br>cyberinfrastructure', description: 'Building institutional knowledge and capability in high-performance computing, AI, open science, and data visualization.', section: 'scipe' }
   ];
   document.querySelectorAll('[data-focus]').forEach(button => button.addEventListener('click', () => {
     const index = Number(button.dataset.focus);

@@ -153,6 +153,16 @@ const siteContent = {
   ],
   "team": [
     {
+      "title": "G. BURCH FISHER",
+      "image": "assets/team/burch-fisher.jpg",
+      "role": "Associate Research Scientist / University of Maryland Center for Environmental Science",
+      "text": "I'm an earth systems scientist interested in how landscapes and environments evolve in response to climate, tectonics, organisms, hydrocarbons, and human activity. My work spans spatial scales from zebrafish retinas to the Himalaya and timescales from days to millions of years. I combine geospatial analysis, machine learning, computational methods, geochemistry, mineralogy, and sensor-based observations to investigate forest structure and habitat, vegetation phenology, landscape evolution, retinal regeneration, and the fate of oil in marine environments. At UMCES, I also help build institutional capability in high-performance computing, AI, open science, and data visualization through research support and training.",
+      "links": [
+        {"label": "UMCES profile", "url": "https://www.umces.edu/directory/g-burch-fisher/"},
+        {"label": "SCIPE profile", "url": "https://scipe.umces.edu/team-member/burch-fisher/"}
+      ]
+    },
+    {
       "title": "CURRENT MEMBERS",
       "text": ""
     },
