@@ -338,3 +338,30 @@ html[data-theme="light"] .explorer .earth-image img { object-position: center; m
 .press-group h4 { font-size: 14px; margin: 24px 0 12px; }
 .press-citation .paper-meta { flex-wrap: wrap; }
 .explorer .dialog-paper .paper-note { color: var(--ink); font-size: 13px; font-style: italic; line-height: 1.6; margin: 0 0 16px; }
+
+html[data-theme="light"] .explorer .profile-fields,
+html[data-theme="light"] .explorer .explorer-wordmark span,
+html[data-theme="light"] .explorer .explorer-header nav button,
+html[data-theme="light"] .explorer .explorer-header nav a,
+html[data-theme="light"] .explorer .panel-nav button,
+html[data-theme="light"] .explorer .panel-nav a,
+html[data-theme="light"] .explorer .explorer-caption,
+html[data-theme="light"] .explorer .explorer-caption span,
+html[data-theme="light"] .explorer .focus-tabs button span,
+html[data-theme="light"] .explorer .panel-brand,
+html[data-theme="light"] .explorer .dialog-label,
+html[data-theme="light"] .explorer .research-papers span,
+html[data-theme="light"] .explorer .panel-search label,
+html[data-theme="light"] .explorer .panel-search input,
+html[data-theme="light"] .explorer .panel-search select,
+html[data-theme="light"] .explorer .paper-meta,
+html[data-theme="light"] .explorer .resource-meta,
+html[data-theme="light"] .explorer .contact-channel > span,
+html[data-theme="light"] .explorer .panel-footer,
+html[data-theme="light"] .explorer .news-entry time,
+html[data-theme="light"] .explorer .news-date,
+html[data-theme="light"] .explorer .team-role,
+html[data-theme="light"] .explorer .course-code,
+html[data-theme="light"] .explorer .news-entry h3,
+html[data-theme="light"] .explorer .teaching-section-title,
+html[data-theme="light"] .explorer .press-citation h3 { font-weight: 500; }
