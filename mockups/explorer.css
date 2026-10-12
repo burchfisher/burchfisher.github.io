@@ -32,7 +32,7 @@ html[data-theme="light"] .theme-icon .theme-moon { display: block; }
 .panel-actions { display: flex; align-items: center; gap: 12px; }
 html[data-theme="light"] .explorer {
   --ink: #19282f;
-  --muted: #52616a;
+  --muted: #43535d;
   --line: rgba(50,77,92,.22);
   --panel: rgba(255,255,255,.97);
   --cyan: #006c85;
@@ -46,7 +46,18 @@ html[data-theme="light"] .explorer {
   --input-bg: #fff;
   --placeholder-bg: #edf2f4;
   --theme-scheme: light;
+  font-weight: 500;
 }
+html[data-theme="light"] .explorer p,
+html[data-theme="light"] .explorer .explorer-title > .profile-bio,
+html[data-theme="light"] .explorer .explorer-project h2,
+html[data-theme="light"] .explorer .front-section-heading h2,
+html[data-theme="light"] .explorer #dialog-title,
+html[data-theme="light"] .explorer .dialog-paper h3,
+html[data-theme="light"] .explorer .dialog-resource h3,
+html[data-theme="light"] .explorer .research-theme h3,
+html[data-theme="light"] .explorer .panel-course h3 { font-weight: 500; }
+html[data-theme="light"] .explorer .explorer-title h1 { font-weight: 600; }
 html[data-theme="light"] .explorer .earth-image img { object-position: center; mask-image: radial-gradient(circle closest-side,#000 87%,transparent 90%); }
 .explorer-wordmark { color: var(--cyan); font-size: 23px; font-weight: 600; }
 .explorer-wordmark span { color: var(--muted); font-size: 13px; font-weight: 400; }
