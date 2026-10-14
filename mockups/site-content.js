@@ -168,7 +168,7 @@ const siteContent = {
     },
     {
       "title": "JEFF LARKIN",
-      "initials": "JL",
+      "image": "assets/team/jeff-larkin.jpg",
       "role": "Ph.D. student / University of Massachusetts Amherst",
       "text": "Jeff is a Ph.D. student in the Environmental Conservation Department at the University of Massachusetts Amherst, studying how forest LiDAR metrics can inform forest and wildlife management. I serve on his Ph.D. thesis committee."
     },
